@@ -18,6 +18,7 @@ media/
 core/migrations/
 !**/migrations/__init__.py
 
+
 # Environment variables
 *.env
 
@@ -30,6 +31,7 @@ core/migrations/
 # Logs and debug files
 *.log
 *.sqlite3
+core/__pycache__/
 
 # Egg and distribution files
 *.egg-info/
