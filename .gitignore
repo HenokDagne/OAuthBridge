@@ -1,0 +1,59 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Django static and media files
+static/
+staticfiles/
+media/
+
+# Django migrations
+core/migrations/
+!**/migrations/__init__.py
+
+# Environment variables
+*.env
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug files
+*.log
+*.sqlite3
+
+# Egg and distribution files
+*.egg-info/
+dist/
+build/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Test output
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+*.save
+*.DS_Store
+Thumbs.db
