@@ -10,7 +10,7 @@ venv/
 env/
 
 # Django static and media files
-static/
+static/image
 staticfiles/
 media/
 
